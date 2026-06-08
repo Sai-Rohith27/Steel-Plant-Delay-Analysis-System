@@ -183,6 +183,6 @@ const setupDatabase = async () => {
 };
 
 setupDatabase().catch(err => {
-  console.error('❌ Setup failed:', err.message);
+  console.error('❌ Setup failed:', err);
   process.exit(1);
 });
