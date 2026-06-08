@@ -1,0 +1,23 @@
+{
+  "name": "vizag-steel-backend",
+  "version": "1.0.0",
+  "description": "Vizag Steel Plant Equipment Delay Tracking System - Backend API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "setup-db": "node config/setupDatabase.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.0",
+    "xlsx": "^0.18.5"
+  }
+}
