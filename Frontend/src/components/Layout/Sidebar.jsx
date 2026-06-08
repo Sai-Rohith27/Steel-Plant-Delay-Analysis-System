@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
-import { 
+import {
   HiOutlineChartBarSquare, HiOutlineClock, HiOutlineDocumentText,
   HiOutlineChartBar, HiOutlineWrench, HiOutlineCloudArrowUp,
   HiOutlineUsers, HiOutlineUser, HiOutlineCog6Tooth,
@@ -108,7 +108,7 @@ export default function Sidebar() {
           display: none;
           position: fixed; inset: 0;
           background: rgba(0,0,0,0.5);
-          z-index: 999;
+          z-index: 998;
         }
         .sidebar {
           position: fixed;
